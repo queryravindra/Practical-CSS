@@ -1,4 +1,4 @@
-# Tiny CSS + JS Checkouts
+# Tiny CSS Code Snippets Checkouts
 
 
 _⚡ You can watch the live demos of Above Projects here..._
