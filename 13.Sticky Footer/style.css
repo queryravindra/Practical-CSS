@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, p, h1 {
+    margin: 0;
+}
+  
+header {
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+}
+
+li {
+  display: inline;
+  margin-right: 8px;
+}
+
+main {
+  /* min-height: calc(100vh - 120px); */
+  min-height: 100vh;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+
+.footer {
+  height: 50px;
+  background: teal;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}

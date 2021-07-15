@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: teal;
+}
+
+.section-header {
+    background: #444;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+p {
+    margin: 20px auto;
+    line-height: 1.3;
+}
+
+article {
+    padding: 1.5rem;
+    max-width: 700px;
+    margin: auto;
+    background: chocolate;
+}

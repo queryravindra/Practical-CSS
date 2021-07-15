@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    font-size: 1.34em;
+    font-family: "Open Sans", "Segoe UI", Helvetica, Arial;
+    color: #fff;
+    background: #F7F7F7;
+}
+
+/* section with
+ - background
+ - relative position
+ - z-index (5)
+ - margin-bottom (equal to footer height)
+*/
+
+.section {
+  position: relative;
+  background: teal;
+  z-index: 5;
+  margin-bottom: 200px;
+  box-shadow: 0 0 12px rgba(0,0,0,.25);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto 1em;
+  padding: 1em;
+}
+
+p {
+    margin: 15px auto;
+}
+
+/* Footer with :
+- fixed position
+- z-index < .section's z-index
+- height <= .section's margin-bottom
+*/
+.footer {
+  position: fixed;
+  vertical-align: middle;
+  z-index: 0;
+  bottom: 0; right: 0; left: 0;
+  height: 200px;
+  padding: 50px 30px;
+  background: #445566;
+  color: #F7F7F7;
+  text-align: center;
+}
